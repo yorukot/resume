@@ -107,6 +107,17 @@ strong {
   font-weight: 800;
 }
 
+.language-page {
+  min-height: 100vh;
+  padding-top: 24mm;
+}
+
+.language-list {
+  display: flex;
+  gap: 18px;
+  margin-top: 24px;
+}
+
 @media print {
   @page {
     size: A4;
